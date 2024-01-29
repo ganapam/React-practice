@@ -1,11 +1,9 @@
 import React from 'react'
-import LoginSignup from './Componnets/assests/LoginSignup/LoginSignup'
-import './App.css';
-import './index.css'
+import WeatherApp from './components/WeatherApp/WeatherApp'
 const App = () => {
   return (
     <div>
-      <LoginSignup/>
+      <WeatherApp/>
     </div>
   )
 }
